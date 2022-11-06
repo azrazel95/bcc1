@@ -1,13 +1,15 @@
+/* universal selector targetting everything */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* selector targeting the content */
 body {
     background-color: #d9dcd6;
 }
-
+/* header selectors */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +25,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* selectors setting the rule for the navigation bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,16 +42,12 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* anchor selector */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
-
+/* image selector */
 figure {
     height: 800px;
     width: 100%;
@@ -57,6 +55,10 @@ figure {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+/* selectors setting the rules for the main section */
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -74,40 +76,7 @@ figure {
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* selectors setting the rules for content of the main section */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -132,6 +101,40 @@ figure {
     font-size: 36px;
 }
 
+/* selectors targetting the side bar */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* selectors targeting the content of the side bar */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* selectors for the footer */
 footer {
     padding: 30px;
     clear: both;
